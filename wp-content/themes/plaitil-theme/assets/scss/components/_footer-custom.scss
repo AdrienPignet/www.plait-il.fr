@@ -1,0 +1,126 @@
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 16px;
+    font-family: $jaldi;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+	display: none;
+    z-index: 99999;
+    transition: 0.4s ease all;
+}
+
+.go-top:hover {
+	background-color: $red-main;
+    transition: 0.4s ease all;
+    i{
+        color: #fff;
+    }
+}
+@media screen and (max-width: 815px){
+    .go-top{
+        bottom: 1em;
+        right: 1em;
+        background-color: #000;
+    }
+}
+footer{
+    margin-top: 45px;
+    padding: 40px 0;
+    border-top: 10px solid $red-main;
+    div{
+        .info-footer-custom{
+            img{
+                display: block;
+                width: 60px;
+            }
+            p{
+                font-family: $jaldi;
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                &:first-of-type{
+                    padding-top: 10px;
+                }
+            }
+            a{
+                padding-top: 40px;
+                font-family: $jaldi;
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                text-decoration: underline;
+                color: #000;
+                transition: 0.4s ease all;
+                &:hover{
+                    color: $red-main;
+                    transition: 0.4s ease all;
+                }
+            }
+        }
+        .reseaux-custom{
+            h4{
+                font-family: $merriweather;
+                font-size: 24px;
+                font-weight: 900;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                display: block;
+                color: $red-main;
+            }
+            a{
+                display: inline-block;
+                margin-right: 10px;
+                width: 40px;
+                height: 40px;
+                &.facebook{
+                    background: url(../images/social/facebook-basic.png) center center no-repeat;
+                    transition: 0.4s ease all;
+                }
+                &.twitter{
+                    background: url(../images/social/twitter-basic.png) center center no-repeat;
+                    transition: 0.4s ease all;
+                }
+                &.pinterest{
+                    background: url(../images/social/pinterest-basic.png) center center no-repeat;
+                    transition: 0.4s ease all;
+                }
+                &.github{
+                    background: url(../images/social/github-basic.png) center center no-repeat;
+                    transition: 0.4s ease all;
+                }
+                &:hover{
+                    &.facebook{
+                        background: url(../images/social/facebook-hover.png) center center no-repeat;
+                        transition: 0.4s ease all;
+                    }
+                    &.twitter{
+                        background: url(../images/social/twitter-hover.png) center center no-repeat;
+                        transition: 0.4s ease all;
+                    }
+                    &.pinterest{
+                        background: url(../images/social/pinterest-hover.png) center center no-repeat;
+                        transition: 0.4s ease all;
+                    }
+                    &.github{
+                        background: url(../images/social/github-hover.png) center center no-repeat;
+                        transition: 0.4s ease all;
+                    }
+                }
+            }
+        }
+        .copyright-custom{
+            padding-top: 40px;
+            text-align: center;
+            font-family: $jaldi;
+            font-size: 16px;
+        }
+    }
+}

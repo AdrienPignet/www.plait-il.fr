@@ -1,0 +1,65 @@
+.main-titre{
+    position: relative;
+    height: 500px;
+    .agency-custom{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        h2{
+            font-family: $merriweather;
+            font-size: 50px;
+            letter-spacing: 20px;
+            text-transform: uppercase;
+        }
+    }
+    .logo-custom{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        img{
+            width: 315px;
+        }
+    }
+    .baseline-custom{
+        text-align: center;
+        padding-top: 40px;
+        h3{
+            font-family: $jaldi;
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+    }
+    .red-bar{
+        position: absolute;
+        display: block;
+        left: 50%;
+        bottom: -100px;
+        height: 200px;
+        width: 20px;
+        background: $red-main;
+    }
+}
+
+// A PROPOS
+.apropos-custom{
+    height: 650px;
+    .agency-img{
+        img{
+            position: relative;
+            right: 0px;
+        }
+    }
+    .text-container-custom{
+        p{
+            font-size: 16px;
+            font-family: $jaldi;
+        }
+        .btn-container{
+            padding: 40px 20px;
+            a{
+                width: 100%;
+            }
+        }
+    }
+}

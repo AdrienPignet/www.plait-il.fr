@@ -1,0 +1,103 @@
+.cd-nav-trigger{
+    right: 20px;
+}
+@media screen and (min-width: 816px) and (max-width: 1010px){
+    .apropos-custom{
+        .agency-img{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .btn-container{
+        padding: 10px 50px !important;
+    }
+    .projet-mini{
+        width: 50%;
+    }
+    .btn-red-mini{
+        letter-spacing: 2px;
+    }
+    .div-date-custom{
+        margin: 20px 0;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 815px){
+    .logo{
+        padding-left: 20px;
+    }
+    .apropos-custom{
+        .agency-img{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .bg-red-title{
+        padding: 20px 20px;
+        h2{
+            font-size: 24px;
+            letter-spacing: 10px;
+        }
+        h3{
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+    }
+    .btn-container{
+        padding: 10px 20px !important;
+    }
+    .main-titre{
+        height: 400px !important;
+        .agency-custom{
+            h2{
+                font-size: 24px;
+                letter-spacing: 2px;
+            }
+        }
+        .logo-custom{
+            img{
+                width: 80%;
+            }
+        }
+        .baseline-custom{
+            h3{
+                font-size: 16px;
+            }
+        }
+        .red-bar{
+            bottom: -140px;
+        }
+    }
+
+    .text-header-alt{
+        padding-top: 60px;
+        h2{
+            text-align: center;
+            font-family: $merriweather;
+            font-size: 24px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 0 20px;
+        }
+        h3{
+            text-align: center;
+            font-family: $jaldi;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #fff;
+            padding: 0 20px;
+        }
+    }
+
+    .reseaux-custom{
+        margin-top: 20px;
+    }
+}

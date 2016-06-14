@@ -1,0 +1,123 @@
+.clear{
+    clear: both;
+}
+
+
+.btn-red{
+    background: $red-main;
+    width: 300px;
+    padding: 10px;
+    font-family: $jaldi;
+    font-size: 15px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid $red-main;
+    text-align: center;
+    transition: 0.4s ease all;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    &:hover{
+        color: $red-main;
+        border: 1px solid $red-main;
+        background: none;
+    }
+}
+
+.btn-red-mini{
+    background: $red-main;
+    width: 100%;
+    padding: 10px;
+    font-family: $merriweather;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid $red-main;
+    text-align: center;
+    transition: 0.4s ease all;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    &:hover{
+        color: $red-main;
+        border: 1px solid $red-main;
+        background: none;
+    }
+}
+
+.bg-red-title{
+    padding: 40px 0;
+    width: 100%;
+    background: $red-main;
+    h2{
+        text-align: center;
+        font-family: $merriweather;
+        font-size: 50px;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    h3{
+        text-align: center;
+        font-family: $jaldi;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #fff;
+    }
+}
+
+.container-custom{
+    padding: 85px 0;
+}
+
+.text-container-custom{
+    padding: 40px;
+}
+
+.wpcf7-response-output{
+    margin-top: 0 !important;
+}
+
+.autre-custom{
+    margin-top: 40px;
+}
+
+// REVEAL MODAL
+
+.reveal{
+    background: rgba(0,0,0,1);
+    padding-top: 5vh;
+    z-index: 999999;
+    img{
+        object-fit: cover;
+        height: 90vh;
+        display: block;
+        margin: 0 auto;
+    }
+    .close-button{
+        width: 100%;
+        height: 100vh;
+        span{
+            font-size: 30px;
+            line-height: 30px;
+            vertical-align: middle;
+        }
+        &:hover{
+            color: $red-main;
+            //background: rgba(0,0,0,0.5);
+            transition: 0.4s ease all;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .reveal{
+        img{
+            height: auto;
+            width: 90%;
+        }
+    }
+}

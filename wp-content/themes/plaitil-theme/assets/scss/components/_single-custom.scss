@@ -1,0 +1,68 @@
+.filtres-custom{
+    background: #f0f0f0;
+    padding: 40px 0;
+    h4{
+        font-family: $merriweather;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .carac-custom{
+        a{
+            color: #000;
+            font-family: $jaldi;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: 0.4s ease all;
+            &:hover{
+                color: $red-main;
+                transition: 0.4s ease all;
+            }
+        }
+    }
+    .date-custom{
+        font-size: 16px;
+        font-family: $jaldi;
+    }
+    .btn-container{
+        padding-top: 10px;
+    }
+}
+
+.text-container-custom{
+    p{
+        font-size: 16px;
+        font-family: $jaldi;
+    }
+}
+
+.portfolio-container{
+    position: relative;
+    padding: 40px;
+    background: #f0f0f0;
+    a{
+        margin-top: 40px;
+        display: block;
+        height: inherit;
+        &:first-of-type{
+            margin-top: 0;
+        }
+        img{
+            position: relative;
+            z-index: 2;
+            transition: 0.4s ease all;
+        }
+        &:hover{
+            img{
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                transition: 0.4s ease all;
+            }
+        }
+    }
+}
+
+.portfolio-back{
+    padding: 40px  40px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
