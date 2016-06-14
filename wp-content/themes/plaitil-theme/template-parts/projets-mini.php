@@ -1,4 +1,4 @@
-<div data-scrollreveal="enter bottom over 1s and move 100px" class="projet-mini small-12 medium-6 large-4 columns end">
+<div class="projet-mini small-12 medium-6 large-4 columns end">
     <a class="on-hover" href="<?php the_permalink(); ?>">
         <?php the_post_thumbnail(); ?>
         <span>

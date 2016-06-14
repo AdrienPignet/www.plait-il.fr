@@ -41,11 +41,11 @@ get_header('single'); ?>
 	</div>
 	<div class="small-12 medium-12 large-8 large-offset-2 columns end portfolio-container">
 		<span class="red-bar"></span>
-		<a data-toggle="exempleModal1"><img data-scrollreveal="enter bottom over 1s and move 100px" src="<?php echo get_field('image_du_portfolio_01'); ?>" alt="" /></a>
+		<a data-toggle="exempleModal1"><img src="<?php echo get_field('image_du_portfolio_01'); ?>" alt="" /></a>
 		<div class="clear espace-40"></div>
-		<a data-toggle="exempleModal2"><img data-scrollreveal="enter bottom over 1s and move 100px" src="<?php echo get_field('image_du_portfolio_02'); ?>" alt="" /></a>
+		<a data-toggle="exempleModal2"><img src="<?php echo get_field('image_du_portfolio_02'); ?>" alt="" /></a>
 		<div class="clear espace-40"></div>
-		<a data-toggle="exempleModal3"><img data-scrollreveal="enter bottom over 1s and move 100px" src="<?php echo get_field('image_du_portfolio_03'); ?>" alt="" /></a>
+		<a data-toggle="exempleModal3"><img src="<?php echo get_field('image_du_portfolio_03'); ?>" alt="" /></a>
 	</div>
 	<div class="full reveal" id="exempleModal1" data-reveal>
 		<img src="<?php echo get_field('image_du_portfolio_01'); ?>" alt="" />
