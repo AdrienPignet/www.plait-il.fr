@@ -59,7 +59,7 @@ var PATHS = {
     //'assets/components/foundation-sites/js/foundation.tooltip.js',
 
     // Motion UI
-    'assets/components/motion-ui/motion-ui.js',
+    //'assets/components/motion-ui/motion-ui.js',
 
     // Cycle
     'assets/components/jquery-cycle2/build/jquery.cycle2.js',

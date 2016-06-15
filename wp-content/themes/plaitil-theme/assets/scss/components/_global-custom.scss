@@ -2,6 +2,10 @@
     clear: both;
 }
 
+::-webkit-scrollbar {
+width: 0px !important;
+background: transparent !important;  
+}
 
 .btn-red{
     background: $red-main;
@@ -107,7 +111,6 @@
         }
         &:hover{
             color: $red-main;
-            //background: rgba(0,0,0,0.5);
             transition: 0.4s ease all;
         }
     }
