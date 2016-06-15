@@ -69,7 +69,7 @@ function create_post_type() {
       'taxonomies' => array('category'),
       'public' => true,
       'has_archive' => true,
-      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail'),
     )
   );
 }
